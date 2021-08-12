@@ -5,6 +5,7 @@
  */
 package ec.edu.intsuperior.vista;
 import ec.edu.intsuperior.modelo.Cliente;
+import javax.swing.JOptionPane;
 /**
  *
  * @author user
@@ -14,7 +15,7 @@ public class Aplicacion {
        Cliente cli = new Cliente("Telefono : 0999524885","Nombre: Juan David Morales","Fecha Nacimiento: 07/05/2001");
      
         System.out.println(cli);
-        
+        JOptionPane.showMessageDialog(null, cli);
     }
     
 }
